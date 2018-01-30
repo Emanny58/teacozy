@@ -42,6 +42,7 @@ nav span a {
   align-items: center;
   text-align: center;
   padding-top: 70px;
+  height: auto;
 }
 
 /* mission */
@@ -89,4 +90,41 @@ nav span a {
 
 .item h4 {
   margin: 0 auto 10px auto;
+}
+
+/* locations */
+
+#locations {
+  background-image: url("../images/locations.jpg");
+  height: 500px;
+  width: 1200px;
+  display: inline-inline-block;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#locations h2 {
+  margin: 45px auto 0 auto;
+}
+
+.localcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  opacity: 1;
 }
