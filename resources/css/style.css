@@ -1,5 +1,5 @@
 body {
-  fon-family: Helvetica;
+  font-family: Helvetica;
   font-size: 22px;
   background-color: black;
   color: seashell;
@@ -43,7 +43,21 @@ nav span a {
 }
 
 /* mission */
-.section1 {
+#section1 {
+  background-image: url("../images/mission.jpg");
   height: 700px;
   width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mission {
+  background-color: black;
+  padding: 10px auto;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.mission h2, .mission h4 {
+  margin: 9px 0;
 }
