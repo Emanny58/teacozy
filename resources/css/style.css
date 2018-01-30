@@ -1,0 +1,49 @@
+body {
+  fon-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  margin: auto 0;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  margin: 9px 10px;
+}
+nav span a {
+  color: seashell;
+}
+.links {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+
+
+/* all content */
+.all-content {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+/* mission */
+.section1 {
+  height: 700px;
+  width: 1200px;
+}
