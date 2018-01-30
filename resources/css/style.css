@@ -37,7 +37,9 @@ nav span a {
 /* all content */
 .all-content {
   display:flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding-top: 70px;
 }
@@ -60,4 +62,31 @@ nav span a {
 }
 .mission h2, .mission h4 {
   margin: 9px 0;
+}
+
+/* featured */
+
+#featured {
+  width: 1000px;
+  margin: 50px auto;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.item img {
+  display: inline-flex;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 0 0;
+}
+
+.item h4 {
+  margin: 0 auto 10px auto;
 }
